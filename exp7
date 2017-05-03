@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ $# -le 1 ]
+then 
+echo "no command argument supplied"
+exit 
+else
+sum=$(($1+$2))
+echo "the sum is $sum"
+fi
+
